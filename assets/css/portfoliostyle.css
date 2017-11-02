@@ -26,7 +26,7 @@
 }
 .nav-bar li a {
 	padding-right: 25px;
-	font-size: 15px;
+	font-size: 20px;
     color: gray;
     text-align: center;
     text-decoration: none;
@@ -36,9 +36,9 @@
 	width: 100%;
 	background-color: #ffffff;
 	background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
-	height: 700px;
+	height: 1600px;
 	border-top: 2px solid #dddddd;
-	border-bottom: 4px solid #4aaaa5;
+	
 }
 .portfolio-items {
 	float: left;
@@ -115,6 +115,7 @@ footer {
 	height: 70px;
 	width: 100%;
 	text-align: center;
+	border-top: 4px solid #4aaaa5;
 }
 footer p {
 	color: white;
@@ -123,7 +124,80 @@ footer p {
 	font-size: 12px;
 }
 
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 981px) {
+	.connect {
+		margin-left: 70px;
+	}	
+}
+@media only screen and (max-width: 980px) {
+	.nav-bar ul {
+		float: left;
+		margin-left: 50px;
+		margin-bottom: 30px;
+	}
+	.nav-bar li a {
+		font-size: 20px;
+	}
+	.portfolio-items {
+		width: 630px;
+		height: 520px;
+	}
+	.connect {
+		margin-left: 70px;
+	}	
+}
 
+@media only screen and (max-width: 788px) {
+	.nav-bar {
+		width: 768px;
+	}
+	.nav-bar ul {
+		float: left;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	.nav-bar li a {
+		font-size: 18px;
+	}
+	.portfolio-items {
+		width: 500px;
+		height: 700px;
+	}
+	.connect {
+		margin-left: 70px;
+	}
+	footer {
+		clear: both;
+	}	
+}
+
+@media only screen and (max-width: 640px) {
+	.nav-bar {
+		width: 640px;
+	}	
+	.nav-bar ul{
+		float: left;
+		margin-left: 50px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+
+	}
+	.nav-bar li a {
+		font-size: 15px;
+		padding: 0px 5px;
+	}
+	.portfolio-items {
+		width: 230px;
+		height: 1300px;
+	}
+	.connect {
+		margin-left: 70px;
+	}
+	footer {
+		clear: both;
+	}
+}
 
 
 
