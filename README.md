@@ -3,4 +3,4 @@
 <h3>This is my no frills, Bootstrap responsive portfolio site.</h3>
 
 <em>Check it out online:</em>
-<a href="https://tcote19.github.io/Responsive-Portfolio/" target="_blank">My Portfolio</a>
+<a href="https://tcote19.github.io/Portfolio/" target="_blank">My Portfolio</a>
